@@ -12,8 +12,6 @@ while guess_round <= 20 and not user_stopped:
 
     guessed_right = False # If the user guessed it correcly
 
-    print(answer)
-
 
     # Ask the question 10 times if the user has not guessed it correctly
     while user_guesses < 10 and not user_stopped and not guessed_right:
